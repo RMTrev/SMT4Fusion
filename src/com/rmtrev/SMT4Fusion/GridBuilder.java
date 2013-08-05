@@ -156,7 +156,7 @@ public class GridBuilder {
 		
 		fusionResults.put(new UPair("Nymph","Nymph"), "");
 		fusionResults.put(new UPair("Nymph","Fury"), "");
-		fusionResults.put(new UPair("Nymph","Kunitsukami"), "");
+		fusionResults.put(new UPair("Nymph","Kunitsukami"), "Femme");
 		fusionResults.put(new UPair("Nymph","Kishin"), "");
 		fusionResults.put(new UPair("Nymph","Zealot"), "");
 		fusionResults.put(new UPair("Nymph","Lady"), "");
@@ -172,11 +172,11 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Nymph","Fallen"), "");
 		fusionResults.put(new UPair("Nymph","Avian"), "");
 		fusionResults.put(new UPair("Nymph","Flight"), "");
-		fusionResults.put(new UPair("Nymph","Raptor"), "");
-		fusionResults.put(new UPair("Nymph","Jirae"), "");
+		fusionResults.put(new UPair("Nymph","Raptor"), "Fallen");
+		fusionResults.put(new UPair("Nymph","Jirae"), "Divine");
 		fusionResults.put(new UPair("Nymph","Brute"), "");
 		fusionResults.put(new UPair("Nymph","Femme"), "");
-		fusionResults.put(new UPair("Nymph","Jaki"), "");
+		fusionResults.put(new UPair("Nymph","Jaki"), "Yoma");
 		fusionResults.put(new UPair("Nymph","Dragon"), "");
 		fusionResults.put(new UPair("Nymph","Snake"), "");
 		fusionResults.put(new UPair("Nymph","Drake"), "");
@@ -186,10 +186,10 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Nymph","Beast"), "");
 		fusionResults.put(new UPair("Nymph","Wilder"), "");
 		fusionResults.put(new UPair("Nymph","Tree"), "");
-		fusionResults.put(new UPair("Nymph","Wood"), "");
+		fusionResults.put(new UPair("Nymph","Wood"), "Tree");
 		fusionResults.put(new UPair("Nymph","Vermin"), "");
 		fusionResults.put(new UPair("Nymph","Ghost"), "");
-		fusionResults.put(new UPair("Nymph","Foul"), "");
+		fusionResults.put(new UPair("Nymph","Foul"), "Femme");
 		fusionResults.put(new UPair("Nymph","Spirit"), "");
 		fusionResults.put(new UPair("Nymph","Undead"), "");
 		fusionResults.put(new UPair("Nymph","Element"), "");
@@ -264,9 +264,9 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Kunitsukami","Avian"), "");
 		fusionResults.put(new UPair("Kunitsukami","Flight"), "");
 		fusionResults.put(new UPair("Kunitsukami","Raptor"), "");
-		fusionResults.put(new UPair("Kunitsukami","Jirae"), "");
+		fusionResults.put(new UPair("Kunitsukami","Jirae"), "Lady");
 		fusionResults.put(new UPair("Kunitsukami","Brute"), "");
-		fusionResults.put(new UPair("Kunitsukami","Femme"), "");
+		fusionResults.put(new UPair("Kunitsukami","Femme"), "Lady");
 		fusionResults.put(new UPair("Kunitsukami","Jaki"), "");
 		fusionResults.put(new UPair("Kunitsukami","Dragon"), "");
 		fusionResults.put(new UPair("Kunitsukami","Snake"), "");
@@ -280,7 +280,7 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Kunitsukami","Wood"), "");
 		fusionResults.put(new UPair("Kunitsukami","Vermin"), "");
 		fusionResults.put(new UPair("Kunitsukami","Ghost"), "");
-		fusionResults.put(new UPair("Kunitsukami","Foul"), "");
+		fusionResults.put(new UPair("Kunitsukami","Foul"), "Wilder");
 		fusionResults.put(new UPair("Kunitsukami","Spirit"), "");
 		fusionResults.put(new UPair("Kunitsukami","Undead"), "");
 		fusionResults.put(new UPair("Kunitsukami","Element"), "");
@@ -851,7 +851,7 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Raptor","Jirae"), "Foul");
 		fusionResults.put(new UPair("Raptor","Brute"), "Ghost");
 		fusionResults.put(new UPair("Raptor","Femme"), "Nymph");
-		fusionResults.put(new UPair("Raptor","Jaki"), "");
+		fusionResults.put(new UPair("Raptor","Jaki"), "Avian");
 		fusionResults.put(new UPair("Raptor","Dragon"), null);
 		fusionResults.put(new UPair("Raptor","Snake"), "Vermin");
 		fusionResults.put(new UPair("Raptor","Drake"), "Holy");
@@ -861,10 +861,10 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Raptor","Beast"), "Avian");
 		fusionResults.put(new UPair("Raptor","Wilder"), "");
 		fusionResults.put(new UPair("Raptor","Tree"), "");
-		fusionResults.put(new UPair("Raptor","Wood"), "");
+		fusionResults.put(new UPair("Raptor","Wood"), "Vile");
 		fusionResults.put(new UPair("Raptor","Vermin"), "Spirit");
 		fusionResults.put(new UPair("Raptor","Ghost"), "");
-		fusionResults.put(new UPair("Raptor","Foul"), "");
+		fusionResults.put(new UPair("Raptor","Foul"), "Avian");
 		fusionResults.put(new UPair("Raptor","Spirit"), "");
 		fusionResults.put(new UPair("Raptor","Undead"), "");
 		fusionResults.put(new UPair("Raptor","Element"), "");
@@ -878,21 +878,21 @@ public class GridBuilder {
 		
 		fusionResults.put(new UPair("Jirae","Jirae"), "");
 		fusionResults.put(new UPair("Jirae","Brute"), "");
-		fusionResults.put(new UPair("Jirae","Femme"), "");
-		fusionResults.put(new UPair("Jirae","Jaki"), "");
+		fusionResults.put(new UPair("Jirae","Femme"), "Brute");
+		fusionResults.put(new UPair("Jirae","Jaki"), "Brute");
 		fusionResults.put(new UPair("Jirae","Dragon"), "");
 		fusionResults.put(new UPair("Jirae","Snake"), "Fallen");
-		fusionResults.put(new UPair("Jirae","Drake"), "");
+		fusionResults.put(new UPair("Jirae","Drake"), "Snake");
 		fusionResults.put(new UPair("Jirae","Avatar"), "");
 		fusionResults.put(new UPair("Jirae","Holy"), "");
 		fusionResults.put(new UPair("Jirae","Food"), "Vermin");
 		fusionResults.put(new UPair("Jirae","Beast"), "Yoma");
 		fusionResults.put(new UPair("Jirae","Wilder"), "");
 		fusionResults.put(new UPair("Jirae","Tree"), "");
-		fusionResults.put(new UPair("Jirae","Wood"), "");
+		fusionResults.put(new UPair("Jirae","Wood"), "Vermin");
 		fusionResults.put(new UPair("Jirae","Vermin"), "");
 		fusionResults.put(new UPair("Jirae","Ghost"), "");
-		fusionResults.put(new UPair("Jirae","Foul"), "");
+		fusionResults.put(new UPair("Jirae","Foul"), "Fairy");
 		fusionResults.put(new UPair("Jirae","Spirit"), "");
 		fusionResults.put(new UPair("Jirae","Undead"), "");
 		fusionResults.put(new UPair("Jirae","Element"), "");
@@ -932,7 +932,7 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Brute","Chaos King"), "");
 		
 		fusionResults.put(new UPair("Femme","Femme"), "");
-		fusionResults.put(new UPair("Femme","Jaki"), "");
+		fusionResults.put(new UPair("Femme","Jaki"), "Ghost");
 		fusionResults.put(new UPair("Femme","Dragon"), "Fallen");
 		fusionResults.put(new UPair("Femme","Snake"), "Drake");
 		fusionResults.put(new UPair("Femme","Drake"), "Foul");
@@ -942,10 +942,10 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Femme","Beast"), "");
 		fusionResults.put(new UPair("Femme","Wilder"), null);
 		fusionResults.put(new UPair("Femme","Tree"), "");
-		fusionResults.put(new UPair("Femme","Wood"), "");
+		fusionResults.put(new UPair("Femme","Wood"), "Vermin");
 		fusionResults.put(new UPair("Femme","Vermin"), null);
 		fusionResults.put(new UPair("Femme","Ghost"), "");
-		fusionResults.put(new UPair("Femme","Foul"), "");
+		fusionResults.put(new UPair("Femme","Foul"), "Nymph");
 		fusionResults.put(new UPair("Femme","Spirit"), "Lady");
 		fusionResults.put(new UPair("Femme","Undead"), "");
 		fusionResults.put(new UPair("Femme","Element"), "[Rank]");
@@ -960,7 +960,7 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Jaki","Jaki"), "");
 		fusionResults.put(new UPair("Jaki","Dragon"), "");
 		fusionResults.put(new UPair("Jaki","Snake"), "");
-		fusionResults.put(new UPair("Jaki","Drake"), "");
+		fusionResults.put(new UPair("Jaki","Drake"), "Tyrant");
 		fusionResults.put(new UPair("Jaki","Avatar"), "");
 		fusionResults.put(new UPair("Jaki","Holy"), "");
 		fusionResults.put(new UPair("Jaki","Food"), "");
@@ -970,7 +970,7 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Jaki","Wood"), "");
 		fusionResults.put(new UPair("Jaki","Vermin"), "");
 		fusionResults.put(new UPair("Jaki","Ghost"), "");
-		fusionResults.put(new UPair("Jaki","Foul"), "");
+		fusionResults.put(new UPair("Jaki","Foul"), "Kishin");
 		fusionResults.put(new UPair("Jaki","Spirit"), "");
 		fusionResults.put(new UPair("Jaki","Undead"), "");
 		fusionResults.put(new UPair("Jaki","Element"), "");
@@ -1036,10 +1036,10 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Drake","Beast"), "");
 		fusionResults.put(new UPair("Drake","Wilder"), "Avian");
 		fusionResults.put(new UPair("Drake","Tree"), "");
-		fusionResults.put(new UPair("Drake","Wood"), "");
+		fusionResults.put(new UPair("Drake","Wood"), "Raptor");
 		fusionResults.put(new UPair("Drake","Vermin"), "Spirit");
 		fusionResults.put(new UPair("Drake","Ghost"), "");
-		fusionResults.put(new UPair("Drake","Foul"), "");
+		fusionResults.put(new UPair("Drake","Foul"), "Dragon");
 		fusionResults.put(new UPair("Drake","Spirit"), "Wood");
 		fusionResults.put(new UPair("Drake","Undead"), "");
 		fusionResults.put(new UPair("Drake","Element"), "");
@@ -1165,7 +1165,7 @@ public class GridBuilder {
 		fusionResults.put(new UPair("Wood","Wood"), "");
 		fusionResults.put(new UPair("Wood","Vermin"), "");
 		fusionResults.put(new UPair("Wood","Ghost"), "");
-		fusionResults.put(new UPair("Wood","Foul"), "");
+		fusionResults.put(new UPair("Wood","Foul"), "Tree");
 		fusionResults.put(new UPair("Wood","Spirit"), "");
 		fusionResults.put(new UPair("Wood","Undead"), "");
 		fusionResults.put(new UPair("Wood","Element"), "");
